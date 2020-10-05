@@ -1,4 +1,8 @@
-/*importera fonts här*/
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+*/
 
 body {
   margin: 0;
@@ -13,6 +17,12 @@ body {
   /*margin: 100px 250px 0;*/
 }
 
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /*** Header ***/
 
 header {
@@ -22,21 +32,25 @@ header {
   justify-content: center;
   height: 650px;
   width: 100%;
+  font-family: "Montserrat", sans-serif;
 }
 
 header h1 {
   font-size: 82px;
+  font-weight: 700;
   margin: 0;
 }
 
 header p {
   font-size: 28px;
+  font-weight: 400;
   margin-bottom: 0;
 }
 
 header p:nth-child(3){
   font-size: 50px;
   margin-top: 0;
+  font-weight: 700;
 }
 
 .header-text-box {
@@ -74,14 +88,27 @@ header p:nth-child(3){
   /*margin: 0 250px 0 250px; */
 }
 
-/*** summary ***/
+/*** summary & tech***/
 
-.summary-section {
+.summary-container, .tech-container {
   display: flex;
+  font-family: "Montserrat", sans-serif;
 }
 
-.summary-text p {
+.summary-container p, .tech-container p{
   font-size: 30px;
+}
+
+.tech-container p {
+ text-align: center;
+}
+
+.tech-container h2, .featured-projects-container h2 {
+  font-family: "Montserrat", sans-serif;
+  /*font-weight: 700;*/
+  background: tomato;
+  text-align: center;
+  width: fit-content;
 }
 
 .span-container {
@@ -104,4 +131,46 @@ header p:nth-child(3){
 }
 
 
-/*** tech ***/
+/*** projects ***/
+
+.project-img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.project-card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: lightyellow;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  width: 47%;
+  background-color: grey;
+
+}
+
+.image-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h4 {
+  position: absolute;
+}
+
+.tags {
+  display: flex;
+}
+
+.tags p {
+  margin-right: 3px;
+  background: tomato;
+}
