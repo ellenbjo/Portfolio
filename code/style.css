@@ -103,9 +103,9 @@ header p:nth-child(3){
  text-align: center;
 }
 
-.tech-container h2, .featured-projects-container h2 {
+h2{
   font-family: "Montserrat", sans-serif;
-  /*font-weight: 700;*/
+  font-size: 48px;
   background: tomato;
   text-align: center;
   width: fit-content;
@@ -132,6 +132,9 @@ header p:nth-child(3){
 
 
 /*** projects ***/
+.all-projects-container {
+  background-color: thistle;
+}
 
 .project-img {
   width: 100%;
@@ -162,8 +165,10 @@ header p:nth-child(3){
   justify-content: center;
 }
 
-h4 {
+.image-container h4 {
   position: absolute;
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
 }
 
 .tags {
@@ -173,4 +178,45 @@ h4 {
 .tags p {
   margin-right: 3px;
   background: tomato;
+}
+
+ul a, .project-description {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: tomato;
+  font-size: 38px;
+}
+
+/*** my thoughts ***/
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.thoughts-post {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  font-family: "Roboto", sans-serif;
+}
+
+.thoughts-post h4 {
+ font-size: 30px;
+ margin: 0;
+}
+
+/*** footer ***/
+
+footer {
+  text-align: center;
+}
+
+footer h3 {
+  color: #000;
 }
