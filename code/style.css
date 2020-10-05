@@ -1,0 +1,107 @@
+/*importera fonts här*/
+
+body {
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  margin: 100px auto 0 auto;
+  /*margin: 100px 250px 0;*/
+}
+
+/*** Header ***/
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 650px;
+  width: 100%;
+}
+
+header h1 {
+  font-size: 82px;
+  margin: 0;
+}
+
+header p {
+  font-size: 28px;
+  margin-bottom: 0;
+}
+
+header p:nth-child(3){
+  font-size: 50px;
+  margin-top: 0;
+}
+
+.header-text-box {
+ margin-left: 0;
+}
+
+.hero-image {
+  position: absolute;
+  z-index: -1;
+  object-fit: cover;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 1950px;
+  height: 650px;
+  object-fit: cover;
+}
+
+.profile-picture {
+  width: 270px;
+  height: 270px;
+  border-radius: 50%;
+  border: white 3px solid;
+}
+
+.picture-container {
+  margin: 400px 0 0 220px;
+}
+
+.main-header-container {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  /*margin: 0 250px 0 250px; */
+}
+
+/*** summary ***/
+
+.summary-section {
+  display: flex;
+}
+
+.summary-text p {
+  font-size: 30px;
+}
+
+.span-container {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: top;
+}
+
+.line {
+  background: tomato;
+  height: 4px;
+  width: 80px;
+}
+
+.circle {
+  background: tomato;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+
+/*** tech ***/
