@@ -248,6 +248,12 @@ header p:last-child{
   display: flex;
   align-items: center;
   justify-content: center;
+  background: rgba(90 90 90 / 50%);
+  -moz-opacity:0.5;
+}
+
+.image-container:hover, .thoughts-img {
+  background: rgba(90 90 90 / 70%);
 }
 
 .image-container h4 {
@@ -255,6 +261,7 @@ header p:last-child{
   font-family: "Montserrat", sans-serif;
   font-size: 28px;
   color: #FFF;
+  
 }
 
 .tags {
