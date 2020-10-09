@@ -511,6 +511,7 @@ footer section {
     height: 160px;
     margin-top: 50px;
     margin-right: 5px;
+    -webkit-margin-before: 50px;
   }
 
   /** summary & tech **/
