@@ -43,6 +43,7 @@ a {
 
 a:visited {
   text-decoration: none;
+  color: black;
 }
 
 a:hover, a:focus {
@@ -511,7 +512,7 @@ footer section {
     height: 160px;
     margin-top: 50px;
     margin-right: 5px;
-    -webkit-margin-before: 50px;
+    -webkit-margin-before: 50px; /* does not work in safari */
   }
 
   /** summary & tech **/
