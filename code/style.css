@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  color: #FFF;
+  color: #000;
 }
 
 * {
@@ -178,7 +178,7 @@ header p:last-child{
 
 /*** summary & tech***/
 .summary-container {
-  background: #111;
+  background: #F4F4F4;
 }
 
 .summary-container div {
@@ -227,7 +227,7 @@ header p:last-child{
 
 /*** projects ***/
 .all-projects-container {
-  background-color: #111;
+  background-color: #F4F4F4;
 }
 
 .project-img {
@@ -245,7 +245,7 @@ header p:last-child{
 }
 
 .project-card-container a, .other-projects-list a {
-  color: #FFF;
+  color: #000;
 }
 
 .project-card:first-child {
@@ -285,7 +285,7 @@ header p:last-child{
 
 .tags p {
   margin-right: 3px;
-  background: #FFF;
+  background: #FDDFE7;
   color: black;
   font-family: "Roboto", sans-serif;
   padding: 4px;
@@ -348,7 +348,7 @@ ul a, .project-description {
 /*** skills ***/
 
 .skills-container {
-  background: #111;
+  background: #F4F4F4;
 }
 
 .skills-list-container {
