@@ -265,7 +265,6 @@ header p:last-child{
   align-items: center;
   justify-content: center;
   background: rgba(90 90 90 / 50%);
-  -moz-opacity:0.5;
 }
 
 .image-container:hover, .thoughts-img {
@@ -510,7 +509,7 @@ footer section {
   .profile-picture {
     width: 160px;
     height: 160px;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-right: 10px;
   }
 
