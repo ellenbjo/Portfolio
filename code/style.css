@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  color: #FFF;
 }
 
 * {
@@ -37,7 +38,6 @@ ul {
 
 a {
   text-decoration: none;
-  color: #000;
   cursor: pointer;
 }
 
@@ -47,6 +47,12 @@ a:visited {
 
 a:hover, a:focus {
   font-weight: bold;
+  text-decoration: underline;
+}
+
+a:focus{
+  outline: #FA382F 1px dotted;
+  outline-offset: 7px;
 }
 
 /*** Headings ***/
@@ -57,7 +63,7 @@ h1 {
   margin-bottom: 0;
 }
 
-h2 {
+h2, .desktop-h2, .phone-h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 38px;
   background: #FA382F;
@@ -167,12 +173,12 @@ header p:last-child{
 }
 
 .icon:hover {
-  background: #111;
+  background: #FA382F;
 }
 
 /*** summary & tech***/
 .summary-container {
-  background: #F4F4F4;
+  background: #111;
 }
 
 .summary-container div {
@@ -190,6 +196,7 @@ header p:last-child{
 
 .tech-container p {
  text-align: center;
+ color: black;
 }
 
 .line {
@@ -220,7 +227,7 @@ header p:last-child{
 
 /*** projects ***/
 .all-projects-container {
-  background-color: #F4F4F4;
+  background-color: #111;
 }
 
 .project-img {
@@ -232,14 +239,23 @@ header p:last-child{
 
 .project-card-container {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: baseline;
 }
+
+.project-card-container a, .other-projects-list a {
+  color: #FFF;
+}
+
+.project-card:first-child {
+  margin-top: 0;
+} 
 
 .project-card, .project-card-hidden {
   display: flex;
   flex-direction: column;
+  margin-top: 20px;
   width: 47%;
 }
 
@@ -270,7 +286,8 @@ header p:last-child{
 
 .tags p {
   margin-right: 3px;
-  background: #FDDFE7;
+  background: #FFF;
+  color: black;
   font-family: "Roboto", sans-serif;
   padding: 4px;
 }
@@ -284,7 +301,7 @@ ul a, .project-description {
   padding-bottom: 100px;
 }
 
-.other-projects-list a , .more-thoughts-list a{
+.other-projects-list a , .more-thoughts-list a {
   text-decoration: underline;
 }
 
@@ -293,6 +310,11 @@ ul a, .project-description {
 .card-container {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
+}
+
+.card-container a {
+  color: black;
 }
 
 .thoughts-post, .thoughts-post-hidden{
@@ -316,10 +338,18 @@ ul a, .project-description {
 .more-thoughts-list li {
   margin-bottom: 25px;
 }
+
+.more-thoughts-list a{
+  color: black;
+}
+
+.phone-h2 {
+  display: none;
+}
 /*** skills ***/
 
 .skills-container {
-  background: #F4F4F4;
+  background: #111;
 }
 
 .skills-list-container {
@@ -367,7 +397,7 @@ ul a, .project-description {
 }
 
 .big-icon:hover {
-  background: #F4F4F4;
+  background: #111;
 }
 
 .big-icon-image {
@@ -423,7 +453,7 @@ footer section {
     font-size: 13px;
   }
 
-  h2 {
+  h2, .phone-h2 {
     font-size: 22px;
   }
 
@@ -562,6 +592,13 @@ footer section {
     display: none;
   }
 
+  .desktop-h2 {
+    display: none;
+  }
+
+  .phone-h2 {
+    display: inline;
+  }
   /** skills **/
 
   .skills-list {
