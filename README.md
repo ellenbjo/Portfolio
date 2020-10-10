@@ -18,7 +18,7 @@ This week's project was to start working on our portfolio. The main focus for th
 - when using the lighthouse report the website got 92% in accessibility for desktop and mobile.
 
 To work on:
-- The heading structure. When doing the HTML-validation test I noticed that my headingstructure isn' in order. I will have to work on this on future updates for the portfolio.
+- The heading structure. When doing the HTML-validation test I noticed that my headingstructure isn' in order. I will have to work on this on future updates for the portfolio. I would like to have some feedback and help regarding this for my code review.
 
 # View it live:
 https://laughing-mcnulty-5ff157.netlify.app/
