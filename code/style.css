@@ -478,6 +478,7 @@ footer section {
 
   .main-header-container{
     margin-top: 0;
+    position: absolute;
   }
 
   header p {
@@ -496,6 +497,7 @@ footer section {
   .icon-container {
     margin-top: 100px
   }
+
   .icon {
     display: flex;
     align-items: center;
@@ -516,9 +518,7 @@ footer section {
   .profile-picture {
     width: 200px;
     height: 200px;
-    margin-top: 50px;
-    margin-right: 5px;
-    -webkit-margin-before: 50px; /* does not work in safari */
+    position: relative;
   }
 
   /** summary & tech **/
