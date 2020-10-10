@@ -144,6 +144,7 @@ header p:last-child{
   height: 300px;
   border-radius: 50%;
   border: white 3px solid;
+  object-fit: cover;
 }
 
 .main-header-container {
@@ -315,12 +316,12 @@ ul a, .project-description {
 
 .card-container a {
   color: black;
-}
+  }
 
 .thoughts-post, .thoughts-post-hidden{
   display: flex;
   flex-direction: column;
-  width: 45%;
+  width: 47%;
   font-family: "Roboto", sans-serif;
 }
 
@@ -335,12 +336,16 @@ ul a, .project-description {
   height: 350px;
 }
 
-.more-thoughts-list li {
+.more-thoughts-list li{
   margin-bottom: 25px;
 }
 
 .more-thoughts-list a{
   color: black;
+}
+
+.li-hidden-desktop{
+  display: none;
 }
 
 .phone-h2 {
@@ -431,7 +436,7 @@ footer p {
 
 footer section {
   padding-top: 100px;
-  padding-bottom: 250px;
+  padding-bottom: 200px;
 }
 
 /** phone **/
@@ -464,6 +469,7 @@ footer section {
   p, h5 {
     font-size: 17px;
   }
+  
   /** header **/
 
   header {
@@ -508,15 +514,15 @@ footer section {
   }
 
   .profile-picture {
-    width: 160px;
-    height: 160px;
+    width: 200px;
+    height: 200px;
     margin-top: 50px;
     margin-right: 5px;
     -webkit-margin-before: 50px; /* does not work in safari */
   }
 
   /** summary & tech **/
-  .summary-container p, .tech-container p{
+  .summary-container p, .tech-container p {
     font-size: 17px;
   }
 
@@ -555,7 +561,7 @@ footer section {
 
   .project-img {
     width: 100%;
-    height: 200px;
+    height: 250px;
     object-fit: cover;
   }
 
@@ -589,17 +595,18 @@ footer section {
     width: 100%;
   }
 
-  .thoughts-post-hidden {
-    display: none;
-  }
-
-  .desktop-h2 {
+  .thoughts-post-hidden, .desktop-h2 {
     display: none;
   }
 
   .phone-h2 {
     display: inline;
   }
+
+  .li-hidden-desktop {
+    display: block;
+  }
+
   /** skills **/
 
   .skills-list {
