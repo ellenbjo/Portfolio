@@ -6,7 +6,7 @@ This week's project was to start working on our portfolio. The main focus for th
 
 - I started with creating the html-skeleton of site. I tried to use as semantic tags as possible. When looking back on the process now I realise I could have put in more time here and added for example article elements on blog-posts and try to rename some of the other non-semantic div-tags.
 - I chose to work with desktop first in mind since I thought about what device the user (hopefully recruiters :smirk: ) would use in an office environment. However from a work flow perspective I would have chosen mobile first since I had to do it again, since the layout seems easier to scale up than down. Especially the header part where the profile picture was difficult to get in place.
-- Since I'm a part of the career program I chose to work from the provided design template in the brief. This was both fun an challenging! I would like to continue on the styling and give the site a more personal touch for future updates.
+- Since I'm a part of the career program I chose to work from the provided design template in the brief. This was both fun an challenging! I would like to continue on the styling and give the site a more personal touch.
 
 
 # Accesibility and cross-browser testing:
