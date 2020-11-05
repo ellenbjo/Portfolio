@@ -315,8 +315,9 @@ ul a, .project-description {
 
 .card-container {
   display: flex;
-  justify-content: space-between;
+  /*justify-content: space-between; when adding another blog post*/ 
   align-items: baseline;
+  justify-content: center;
 }
 
 .card-container a {
