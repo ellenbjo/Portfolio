@@ -51,10 +51,6 @@ a:visited {
   color: black;
 }
 
-ul a:hover, ul a:focus {
-  font-weight: bold;
-}
-
 a:focus{
   outline: #5f8a9a 1px dotted;
   outline-offset: 7px;
@@ -288,6 +284,7 @@ header p:last-child{
 
 .tags {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .tags p {
@@ -311,6 +308,9 @@ ul a, .project-description {
   text-decoration: underline;
 }
 
+.other-projects-list-hidden {
+  display: none;
+}
 /*** my thoughts ***/
 
 .card-container {
@@ -590,6 +590,10 @@ footer section {
 
   .other-projects-container, .more-thoughts-container {
     padding-bottom: 60px;
+  }
+
+  .other-projects-list-hidden {
+    display: block;
   }
 
   /** my thoughts **/
